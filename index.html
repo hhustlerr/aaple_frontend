@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apple Factory</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<!-- Fullscreen Video Loader -->
+<div id="loader">
+  <video autoplay muted playsinline loop id="loaderVideo">
+    <source src="loader.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<section class="apple-showcase" id="apple">
+  <img id="appleImage" src="assets/iphone.png" alt="Apple Product" />
+  
+</section>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar">
+  <div class="nav-left" ><img src="sisth.jpeg" alt="apple" class="logo"></div>
+  <ul class="nav-links">
+    <li class="home"><a href="#home">Home</a></li>
+    <li><a href="#">Features</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#demo">Demo</a></li>
+  </ul>
+</nav>
+
+
+  <!-- Parallax Hero Section -->
+  <section class="hero" id="home">
+    <div class="parallax-bg" id="parallaxBg"></div>
+    <div class="hero-content" data-aos="fade-up">
+      <h1 data-speed="0.6" class="texthd">Build. Animate. Amaze.</h1>
+      <p data-speed="0.8" class="text">Welcome to the World of Apples!</p>
+      <a href="#products" class="btn">Explore ↓</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+<section class="features" id="products">
+  <div class="feature-block">
+    <h2>Crafted for Humans, Backed by Code</h2>
+    <p>Interfaces that think, feel, and respond to you.</p>
+  </div>
+</section>
+
+<section class="product-grid" id="products">
+  <div class="product-card">
+    <img src="seventh.jpg" alt="iPhone" />
+    <h2>iPhone 15 Pro</h2>
+    <div class="card-buttons">
+    <a href="#" class="btn-card btn-learn">Learn More</a>
+    <a href="#" class="btn-card btn-buy">Buy Now</a>
+  </div>
+  </div>
+  <div class="product-card">
+    <img src="ningth.jpg" alt="MacBook" />
+    <h2>Air Pods Pro</h2>
+    <h3>Unbelievable thin. Incredibly Powerful</h3>
+    <div class="card-buttons">
+    <a href="#" class="btn-card btn-learn">Learn More</a>
+    <a href="#" class="btn-card btn-buy">Buy Now</a>
+  </div>
+  </div>
+  <div class="product-card">
+    <img src="tenth.jpg" alt="iPad" />
+    <h2>Trade IN</h2>
+    <h3>A Work of Smart</h3>
+    <div class="card-buttons">
+    <a href="#" class="btn-card btn-learn">Learn More</a>
+    <a href="#" class="btn-card btn-buy">Buy Now</a>
+  </div>
+  </div>
+  <div class="product-card">
+    <img src="twelve.png" alt="Apple Watch" />
+    <h2>Apple Watch Ultra</h2>
+    <div class="card-buttons">
+    <a href="#" class="btn-card btn-learn">Learn More</a>
+    <a href="#" class="btn-card btn-buy">Buy Now</a>
+  </div>
+  </div>
+</section>
+
+
+<section class="apple-hero">
+  <div class="text-content">
+    <h1>MacBook Air</h1>
+    <p>Sky blue colour.<br>Sky high performance with M4.</p>
+    <div class="button-group">
+      <a href="#" class="btn btn-filled">Learn more</a>
+      <a href="#" class="btn btn-outline">Buy</a>
+    </div>
+    <img src="fifth.jpg" alt="MacBook Air" class="hero-image" />
+  </div>
+</section>
+
+<!-- OUTSIDE the hero block -->
+<div class="ai-tagline">
+  <a href="#">Built for <span>Apple Intelligence</span>.</a>
+</div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
